@@ -1,0 +1,303 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-size: 1rem;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0, 1rem;
+
+}
+
+header{
+    margin-top: 15px;
+}
+
+.logo{
+    width: 120px;
+    height: 80px;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.menu__flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgba(59, 59, 59, 0.481);
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.menu__items{
+    font-size: 15px;
+}
+
+.bi-list-ul{
+    font-size: 2rem;
+}
+
+.bi-cart2 {
+   font-size: 2rem;
+}
+ 
+.titulo {
+    color: whitesmoke;
+    font-weight: 200;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    padding: 5px;
+
+}
+
+.titulo__suscripcion{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: black;
+    padding: 5px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.titulo__modificado{
+    color: whitesmoke;
+    text-align: start;
+    font-size: 1rem;
+    background-color: black;
+    padding: 5px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo__pregunta {
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.titulo__destacado {
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.ubicacion{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.ubicacion__direccion{
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacion__texto{
+    font-size: 0.8rem;
+    padding: 6px;
+}
+
+.correo{
+    display: flex;
+    justify-content: center;
+}
+
+.correo__destacado{
+    background-color: gray;
+    border: 1px grey solid;
+    color:white;
+    padding-left: 3px;
+}
+
+.bton__promociones{
+    display: flex;
+    justify-content: center;
+}
+
+.bton {
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    width: 80px;
+    padding: 2px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin-bottom: 70px;
+
+}
+
+.terminos{
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.copyright{
+    text-align: start;
+    margin-top: 20px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.tarjetas__contenedor{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.tarjeta_oferta{
+    width: 200px;
+    height: 200px;
+}
+
+
+.tarjeta__oferta__titulo{
+    color: white;
+    font-size: 1rem;
+}
+
+.tarjeta_oferta__img{
+    width: 25vh;
+    height: 25vh;
+    margin: 20px;
+}
+
+.texto {
+    color: black;
+    font-weight: 200;
+}
+
+.form__centrado {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.lista {
+    padding: 50px;
+}
+
+@media screen and (min-width: 768px) {
+
+iframe {
+    width: 220px;
+    height: 180px;
+}
+
+.logo {
+    width: 180px;
+    height: 120px;
+}
+
+.bi-list-ul{
+    font-size: 3rem;
+}
+
+.bi-cart2 {
+   font-size: 3rem;
+}
+
+.menu__items{
+    font-size: 1.2rem;
+}
+
+.tarjetas__contenedor{
+    margin-left: 20px;
+    margin-right: 20px ;
+}
+
+.titulo__suscripcion{
+    font-size: 1.5rem;
+
+}
+.ubicacion {
+    justify-content: space-around;
+}
+
+.ubicacion__texto{
+    font-size: 1rem;
+}
+
+.titulo__suscripcion{
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+
+.correo {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.correo__destacado{
+    width: 290px;
+    height: 25px;
+}
+
+.titulo__modificado{
+    font-size: 1.1rem ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+
+}
+
+.bton{
+
+    width: 100px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    height: 33px;
+}
+
+.terminos{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+}
+
+.iconos{
+    height: 80px;
+    justify-content: space-around;
+    
+}
+
+.copyright{
+    font-size: 1.5rem;
+}
+}
