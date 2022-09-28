@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
     <title>ANLOX - Ayuda</title>
 </head>
 <body>
     <!-- Barra de Navegacion-->
     <header>
-        <nav>
-            <div class="menu">
-                <i class="bi bi-list-ul" class=""></i>
-                <a href="../index.html"><img src="../assets/logo/logo-anlox.png" alt="ANLOX" class="logo"></a>
-                <i class="bi bi-cart2"></i>
+        <nav class="navbar">
+            <div class= "container-fluid">
+              <a class="navbar-brand" href="../index.html"> <p class="logo"> ANLOX </p></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+              </svg></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./como-comprar.html" class="menu__items">Como Comprar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./productos.html" class="menu__items">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./ayuda.html" class="menu__items">Ayuda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html" class="menu__items">Contacto</a>
+                  </li>
+              </div>
             </div>
-            <ul>
-                <a href="./como-comprar.html" target="_blank"><ol>Como Comprar</ol></a>
-                <a href="./productos.html" target="_blank" ><ol>Productos</ol></a>
-                <a href="./ayuda.html" target="_blank" ><ol>Ayuda</ol></a>
-                <a href="./contacto.html" target="_blank" ><ol>Contacto</ol></a>
-            </ul>
-        </nav>
+          </nav>
     </header>
     <!-- AYUDA  -->
     <main>
@@ -47,5 +61,6 @@
         <a href=""><p> Politicas de Privacidad</p></a>
         <p> <strong>©Copyright ANLOX </strong></p>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
