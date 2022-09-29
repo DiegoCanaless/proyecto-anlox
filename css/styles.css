@@ -178,6 +178,19 @@ nav {
     text-align: center;
     font-size: 1.4rem;
 }
+
+.ofertas__bton{
+    background-color: red;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+
+}
+
 .ofertas__imagen{
     width: 30vh;
     height: 30vh;
