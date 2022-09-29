@@ -159,6 +159,11 @@ nav {
     display: flex;
     flex-direction: row ;
     justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.productos__iconos{
+font-size: 1.2rem;
 }
 
 .ofertas__titulo{
@@ -208,7 +213,32 @@ nav {
     flex-direction: column;
 }
 
+.producto__contenedor{
+    max-width: 400px;
+    max-height: 140px;
+    overflow: hidden;
+}
 
+.producto__imagen{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.producto__texto{
+    padding: 0px;
+    margin: 0px;
+}
+
+.producto__bton{
+    background-color: red;
+    text-align: center;
+    width: 90px;
+    height: 25px;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 30px;
+}
 
 .lista {
     padding: 50px;
