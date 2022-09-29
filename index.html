@@ -20,10 +20,8 @@
          <!--   Barra de navegacion  -->
          <nav class="navbar">
             <div class= "container-fluid">
-              <a class="navbar-brand" href="./index.html"> <p class="logo"> ANLOX </p></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-              </svg></span>
+              <a class="navbar-brand ms-4" href="./index.html"> <span class="logo"> ANLOX </span></a>
+              <button class="navbar-toggler bi bi-list me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -41,7 +39,7 @@
                   </li>
               </div>
             </div>
-          </nav>
+        </nav>
 
     </header>
 
@@ -51,26 +49,41 @@
         <section>
             <h1 class="titulo"> OFERTAS </h1>
             <div class="tarjetas__contenedor">
-                <article class="tarjeta__oferta">
-                    <div> 
-                        <p class="tarjeta__oferta__titulo"> Campera Quatum </p>
-                        <a href=""><img src="./assets/foto-productos/campera__de__hombre__quantum.jpg" alt="campera quantum" class="tarjeta_oferta__img"></a>
-                    </div>
-                </article>
-                
-                <article class="tarjeta__oferta">
-                    <div> 
-                        <p class="tarjeta__oferta__titulo"> Campera Ashley</p>
-                        <a href=""><img src="./assets/foto-productos/campera__de__mujer__ashley.jpg" alt="campera ashley" class="tarjeta_oferta__img"></a>
-                    </div>
-                </article>
+                <article >
+                    <div class="conteiner bg-black  "> 
+                        <div class="row pt-4 justify-content-center align-items-center">
+                            <div class="col-sm">
+                                <p class="ofertas__titulo"> Campera Quatum </p>
+                                <p class="ofertas__precioN"> ARS$12.000 </p>
+                                <p class="ofertas__precioO"> ARS$8.000 </p>
+                            </div>
+                            <div class="col-sm">
+                                <a href=""><img src="./assets/foto-productos/campera__de__hombre__quantum.jpg" alt="campera quantum" class="ofertas__imagen"></a>
+                            </div>
+                        </div>
+                        <div class="row pt-4 justify-content-center align-items-center">
+                            <div class="col-sm">
+                                <p class="ofertas__titulo"> Campera Ashley </p>
+                                <p class="ofertas__precioN"> ARS$15.000 </p>
+                                <p class="ofertas__precioO"> ARS$12.000 </p>
 
-                <article class="tarjeta__oferta">
-                    <div> 
-                        <p class="tarjeta__oferta__titulo"> Campera Rasmus</p>
-                        <a href=""><img src="./assets/foto-productos/campera__de__hombre__rasmus.jpg" alt="campera rasmus" class="tarjeta_oferta__img"></a>
+                            </div>
+                            <div class="col-sm">
+                                <a href=""><img src="./assets/foto-productos/campera__de__mujer__ashley.jpg" alt="campera ashley" class="ofertas__imagen"></a>
+                            </div>
+                        </div>
+                        <div class="row pt-4 justify-content-center align-items-center">
+                            <div class="col-sm">
+                                <p class="ofertas__titulo"> Campera Rasmus </p>
+                                <p class="ofertas__precioN"> ARS$12.000 </p>
+                                <p class="ofertas__precioO"> ARS$8.000 </p>
+                            </div>
+                            <div class="col-sm">
+                                <a href=""><img src="./assets/foto-productos/campera__de__hombre__rasmus.jpg" alt="campera rasmus" class="ofertas__imagen"></a>
+                            </div>
+                        </div>
                     </div>
-                </article>    
+                </article>
             </div>   
         </section>
     
@@ -99,10 +112,10 @@
                     <form action="">
                         <div class="correo">
                             <label for="Correo"></label>
-                            <input type="Email" placeholder="Correo..." id="Correo" value="Email" class="correo__destacado">
+                            <input type="Email" placeholder="Correo..." id="Correo" value="Email" class="correo__destacado" required>
                         </div>
                         <div >
-                            <p class="titulo__modificado"> ¡¡Quieres recibir novedades y promociones antes que nadie!! <input type="radio"></p>
+                            <p class="titulo__modificado"> ¡¡Quieres recibir novedades y promociones <br>antes que nadie!! <input type="radio" required></p>
                         </div>
                         <div class="bton__promociones">
                             <a href="" class="bton">Enviar</a>

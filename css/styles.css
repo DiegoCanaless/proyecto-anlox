@@ -26,14 +26,14 @@ nav {
     background-color: rgba(255, 255, 255, 0.945)
 }
 
-svg{
+.bi-list{
     color: black;
+    font-size: 30px;
 }
 
 .logo{
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Shadows Into Light', cursive;
-
 }
 
 .nav-link{
@@ -68,13 +68,13 @@ svg{
 .titulo__modificado{
     color: whitesmoke;
     text-align: start;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: black;
-    padding: 10px;
+    padding: 20px;
     font-weight: 200;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'Shadows Into Light', cursive;;
+
 }
 
 .titulo__pregunta {
@@ -161,28 +161,26 @@ svg{
     justify-content: space-between;
 }
 
-.tarjetas__contenedor{
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-    justify-content: space-between;
-    background-color: black;
-}
-
-.tarjeta_oferta{
-    width: 200px;
-    height: 200px;
-}
-
-
-.tarjeta__oferta__titulo{
+.ofertas__titulo{
     color: white;
-    font-size: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
 }
 
-.tarjeta_oferta__img{
-    width: 25vh;
-    height: 25vh;
+.ofertas__precioN{
+    text-align: center;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.075)
+}
+
+.ofertas__precioO{
+    color:white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.ofertas__imagen{
+    width: 30vh;
+    height: 30vh;
     margin: 20px;
 }
 
