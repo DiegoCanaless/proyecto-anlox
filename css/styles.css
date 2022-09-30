@@ -65,6 +65,7 @@ nav {
     margin-bottom: 10px;
     font-family: 'Shadows Into Light', cursive;;
 }
+
 .titulo__modificado{
     color: whitesmoke;
     text-align: start;
@@ -74,7 +75,6 @@ nav {
     font-weight: 200;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 .titulo__pregunta {
@@ -175,7 +175,7 @@ font-size: 1.2rem;
 .ofertas__precioN{
     text-align: center;
     margin: 0px;
-    color: rgba(255, 255, 255, 0.075)
+    color: rgba(255, 255, 255, 0.267)
 }
 
 .ofertas__precioO{
@@ -230,6 +230,10 @@ font-size: 1.2rem;
     margin: 0px;
 }
 
+.bi-geo-alt{
+    font-size: 20px;
+}
+
 .producto__bton{
     background-color: red;
     text-align: center;
@@ -242,6 +246,18 @@ font-size: 1.2rem;
 
 .lista {
     padding: 50px;
+}
+
+.bi-instagram{
+    font-size: 1.8rem;
+}
+
+.bi-facebook{
+    font-size: 1.8rem;
+}
+
+.bi-whatsapp{
+    font-size: 1.8rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -260,15 +276,6 @@ iframe {
     font-size: 1.2rem;
 }
 
-.tarjetas__contenedor{
-    margin-left: 20px;
-    margin-right: 20px ;
-}
-
-.titulo__suscripcion{
-    font-size: 1.5rem;
-
-}
 .ubicacion {
     justify-content: space-around;
 }
@@ -278,8 +285,12 @@ iframe {
 }
 
 .titulo__suscripcion{
-    margin-top: 20px;
+    font-size: 2rem;
     margin-bottom: 20px ;
+}
+
+.bi-geo-alt{
+    font-size: 35px;
 }
 
 .correo {
@@ -314,13 +325,138 @@ iframe {
     gap: 30px;
 }
 
+.terminos__texto{
+    font-size: 1.2rem;
+}
+
 .iconos{
     height: 80px;
     justify-content: space-around;
     
 }
+.bi-instagram{
+    font-size: 2.5rem;
+}
+
+.bi-facebook{
+    font-size: 2.5rem;
+}
+
+.bi-whatsapp{
+    font-size: 2.5rem;
+}
 
 .copyright{
     font-size: 1.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+
+.logo{
+    width: 440px;
+    height: 120px;
+}
+
+.bi-list{
+    color: black;
+    border: solid 1px black;
+    font-size: 35px;
+}
+
+.titulo{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    background-color: black;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+.ofertas__titulo{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ofertas__precioO{
+    color:white;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.ofertas__imagen{
+    width: 40vh;
+    height: 40vh;
+    margin: 20px;
+}
+
+.titulo__suscripcion{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: black;
+    padding-top: 30px;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+.ubicacion__texto{
+    font-size: 1.2rem;
+    padding: 6px;
+}
+
+.bi-geo-alt{
+    font-size: 40px;
+}
+
+.correo__destacado{
+    width: 450px;
+    height: 35px;
+    background-color: gray;
+    border: 1px grey solid;
+    color:white;
+    padding-left: 3px;
+    margin: 10px;
+}
+.titulo__modificado{
+    color: whitesmoke;
+    text-align: start;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bton {
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    padding: 2px;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.terminos__texto{
+    font-size: 1.2rem;
+}
+
+.bi-instagram{
+    font-size: 3rem;
+}
+
+.bi-facebook{
+    font-size: 3rem;
+}
+
+.bi-whatsapp{
+ font-size: 3rem;
+}
+
 }
