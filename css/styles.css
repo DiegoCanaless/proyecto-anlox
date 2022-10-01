@@ -28,11 +28,12 @@ nav {
 
 .bi-list{
     color: black;
-    font-size: 30px;
+    border: solid 1px black;
+    font-size: 25px;
 }
 
 .logo{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: 'Shadows Into Light', cursive;
 }
 
@@ -169,7 +170,7 @@ font-size: 1.2rem;
 .ofertas__titulo{
     color: white;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .ofertas__precioN{
@@ -197,8 +198,8 @@ font-size: 1.2rem;
 }
 
 .ofertas__imagen{
-    width: 30vh;
-    height: 30vh;
+    width: 18vh;
+    height: 18vh;
     margin: 20px;
 }
 
@@ -213,21 +214,16 @@ font-size: 1.2rem;
     flex-direction: column;
 }
 
-.producto__contenedor{
-    max-width: 400px;
-    max-height: 140px;
-    overflow: hidden;
-}
-
 .producto__imagen{
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
 }
 
 .producto__texto{
     padding: 0px;
     margin: 0px;
+    font-size: 1.3rem;
 }
 
 .bi-geo-alt{
@@ -237,11 +233,12 @@ font-size: 1.2rem;
 .producto__bton{
     background-color: red;
     text-align: center;
-    width: 90px;
+    width: 100px;
     height: 25px;
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
     border-radius: 30px;
+    margin-bottom: 20px;
 }
 
 .lista {
@@ -259,12 +256,47 @@ font-size: 1.2rem;
 .bi-whatsapp{
     font-size: 1.8rem;
 }
+.productos{
+    display: flex;
+    flex-direction: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 575px) {
+
+    .ofertas__imagen{
+        width: 25vh;
+        height: 25vh;
+        margin: 20px;
+    }  
+
+    .ofertas__titulo{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
 
 iframe {
     width: 220px;
     height: 180px;
+}
+
+.ofertas__titulo{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.ofertas__imagen{
+    width: 35vh;
+    height: 35vh;
+    margin: 20px;
 }
 
 .logo {
