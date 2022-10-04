@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,23 +19,23 @@
     <header>
 
         <!--   Barra de navegacion  -->
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg p-0">
             <div class= "container justify-content-lg-evenly justify-content-xl-evenly">
-                <a class="navbar-brand ms-4 " href="./index.html"> <p class="logo"> ANLOX </p></a>
+                <a class="navbar-brand ms-4 p-0 " href="./index.html"> <p class="logo"> ANLOX </p></a>
                 <button class="navbar-toggler bi bi-list me-4 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/como-comprar.html" class="menu__items">Como Comprar</a>
+                        <li class="nav-item p-lg-4">
+                            <a class="nav-link" href="./pages/como-comprar.html" class="menu__items">ComoComprar</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item p-lg-4">
                             <a class="nav-link" href="./pages/productos.html" class="menu__items">Productos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item p-lg-4">
                             <a class="nav-link" href="./pages/ayuda.html" class="menu__items">Ayuda</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item p-lg-4 me-1">
                             <a class="nav-link" href="./pages/contacto.html" class="menu__items">Contacto</a>
                         </li>
                     </ul>
@@ -55,20 +56,20 @@
                         <div class="row pt-4 justify-content-center align-items-center">
                             <div class="col text-center">
                                 <p class="ofertas__titulo"> Campera Quatum </p>
-                                <p class="ofertas__precioN"> ARS$12.000 </p>
+                                <p class="ofertas__precioN" > <del>ARS$12.000</del></p>
                                 <p class="ofertas__precioO"> ARS$8.000 </p>
                                 <div class="bton__promociones">
                                     <a href="" class="ofertas__bton">Comprar</a>
                                 </div>
                             </div>
                             <div class=" col text-center">
-                                <a href=""><img src="./assets/foto-productos/campera__de__hombre__quantum.jpg" alt="campera quantum" class="ofertas__imagen"></a>
+                                <a href=""><img src="./assets/foto-productos/campera__de__hombre__quantum.jpg" alt="campera quantum" class="ofertas__imagen" ></a>
                             </div>
                         </div>
                         <div class="row pt-4 justify-content-center align-items-center">
                             <div class="col text-center">
                                 <p class="ofertas__titulo"> Campera Ashley </p>
-                                <p class="ofertas__precioN"> ARS$15.000 </p>
+                                <p class="ofertas__precioN"> <del>ARS$15.000</del></p>
                                 <p class="ofertas__precioO"> ARS$12.000 </p>
                                 <div class="bton__promociones">
                                     <a href="" class="ofertas__bton">Comprar</a>
@@ -81,7 +82,7 @@
                         <div class="row pt-4 justify-content-center align-items-center">
                             <div class="col text-center">
                                 <p class="ofertas__titulo"> Campera Rasmus </p>
-                                <p class="ofertas__precioN"> ARS$12.000 </p>
+                                <p class="ofertas__precioN"> <del>ARS$12.000</del></p>
                                 <p class="ofertas__precioO"> ARS$8.000 </p>
                                 <div class="bton__promociones">
                                     <a href="" class="ofertas__bton">Comprar</a>
@@ -101,11 +102,13 @@
             <article>
                 <h2 class="titulo__suscripcion"> Encuentranos</h2>
                 <div class="ubicacion">
-                    <div class="ubicacion__direccion">
+                    <div class="ubicacion__direccion" data-aos="zoom-in">
                         <i class="bi bi-geo-alt"></i>
                         <p class="ubicacion__texto">El Salvador 5218 Soho, CP 1414 Buenos Aires</p>
                     </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d420443.587119473!2d-58.7945456!3d-34.586064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses!2sar!4v1663797075161!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+                    <div data-aos="zoom-in">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d420443.587119473!2d-58.7945456!3d-34.586064!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses!2sar!4v1663797075161!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe"></iframe>
+                    </div>
                 </div>
             </article>
         </section>
@@ -117,7 +120,7 @@
                     <form action="">
                         <div class="correo">
                             <label for="Correo"></label>
-                            <input type="Email" placeholder="Correo..." id="Correo" value="Email" class="correo__destacado" required>
+                            <input type="Email" placeholder="Correo..." id="Correo" value="Email" class="correo__destacado" data-aos="flip-left" required>
                         </div>
                         <div >
                             <p class="titulo__modificado"> ¡¡Quieres recibir novedades y promociones <br>antes que nadie!! <input type="radio" required></p>
@@ -147,5 +150,9 @@
         <p class="copyright"> <strong>©Copyright ANLOX </strong></p>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

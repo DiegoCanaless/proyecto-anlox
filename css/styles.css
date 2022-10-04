@@ -29,12 +29,13 @@ nav {
 .bi-list{
     color: black;
     border: solid 1px black;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .logo{
     font-size: 3.5rem;
     font-family: 'Shadows Into Light', cursive;
+    padding-top: 22px;
 }
 
 .nav-link{
@@ -194,13 +195,25 @@ font-size: 1.2rem;
     color: white;
     font-size: 1rem;
     border-radius: 30px;
+    transition-duration: 0.5s;
+}
+
+.ofertas__bton:hover{
+    color: black;
+    background-color: white;
 
 }
 
 .ofertas__imagen{
-    width: 18vh;
-    height: 18vh;
+    width: 20vh;
+    height: 20vh;
     margin: 20px;
+    transition-duration: 0.5s;
+}
+
+.ofertas__imagen:hover{
+    width: 24vh;
+    height: 24vh;
 }
 
 .texto {
@@ -218,6 +231,12 @@ font-size: 1.2rem;
     width: 250px;
     height: 250px;
     margin-bottom: 0px;
+    transition-duration: 0.5s;
+}
+
+.producto__imagen:hover{
+    width: 270px;
+    height: 270px;
 }
 
 .producto__texto{
@@ -239,6 +258,13 @@ font-size: 1.2rem;
     font-size: 1rem;
     border-radius: 30px;
     margin-bottom: 20px;
+    transition-duration: 0.5s;
+}
+
+.producto__bton:hover{
+    color: black;
+    background-color: white;
+    border: solid 1px black;
 }
 
 .lista {
@@ -270,7 +296,13 @@ font-size: 1.2rem;
         width: 25vh;
         height: 25vh;
         margin: 20px;
+        transition-duration: 0.5s;
     }  
+    
+    .ofertas__imagen:hover{
+        width: 28vh;
+        height: 28vh; 
+    }
 
     .ofertas__titulo{
         color: white;
@@ -297,6 +329,12 @@ iframe {
     width: 35vh;
     height: 35vh;
     margin: 20px;
+    transition-duration: 0.5s;
+}
+
+.ofertas__imagen:hover{
+    width: 39vh;
+    height: 39vh;
 }
 
 .logo {
@@ -422,6 +460,12 @@ iframe {
     width: 40vh;
     height: 40vh;
     margin: 20px;
+    transition-duration: 0.3s;
+}
+
+.ofertas__imagen:hover{
+        width: 44vh;
+        height: 44vh;
 }
 
 .titulo__suscripcion{
@@ -488,7 +532,7 @@ iframe {
 }
 
 .bi-whatsapp{
- font-size: 3rem;
+    font-size: 3rem;
 }
-
+}
 }
