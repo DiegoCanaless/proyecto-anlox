@@ -1,0 +1,546 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-size: 1rem;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0, 1rem;
+
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.945)
+}
+
+.bi-list{
+    color: black;
+    border: solid 1px black;
+    font-size: 30px;
+}
+
+.logo{
+    font-size: 3.5rem;
+    font-family: 'Shadows Into Light', cursive;
+    padding-top: 22px;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.titulo {
+    color: whitesmoke;
+    font-weight: 200;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+.titulo__suscripcion{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    padding: 10px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+.titulo__modificado{
+    color: whitesmoke;
+    text-align: start;
+    font-size: 1.2rem;
+    background-color: black;
+    padding: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo__pregunta {
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.titulo__destacado {
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    margin-top: 30px;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+.ubicacion{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.ubicacion__direccion{
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacion__texto{
+    font-size: 0.8rem;
+    padding: 6px;
+}
+
+.correo{
+    display: flex;
+    justify-content: center;
+}
+
+.correo__destacado{
+    background-color: gray;
+    border: 1px grey solid;
+    color:white;
+    padding-left: 3px;
+    margin: 10px;
+}
+
+.bton__promociones{
+    display: flex;
+    justify-content: center;
+}
+
+.bton {
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+
+}
+
+.copyright{
+    text-align: start;
+    margin-top: 20px;
+}
+
+.lista {
+    padding: 50px;
+    list-style: upper-roman;
+}
+
+.lista__parrafo{
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.productos__iconos{
+font-size: 1.2rem;
+}
+
+.ofertas__titulo{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.ofertas__precioN{
+    text-align: center;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.267)
+}
+
+.ofertas__precioO{
+    color:white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.ofertas__bton{
+    background-color: red;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+}
+
+.ofertas__bton:hover{
+    color: black;
+    background-color: white;
+
+}
+
+.ofertas__imagen{
+    width: 20vh;
+    height: 20vh;
+    margin: 20px;
+    transition-duration: 0.5s;
+}
+
+.ofertas__imagen:hover{
+    width: 24vh;
+    height: 24vh;
+}
+
+.texto {
+    color: black;
+    font-weight: 200;
+}
+
+.form__centrado {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto__imagen{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    transition-duration: 0.5s;
+}
+
+.producto__imagen:hover{
+    width: 270px;
+    height: 270px;
+}
+
+.producto__texto{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3rem;
+}
+
+.bi-geo-alt{
+    font-size: 20px;
+}
+
+.producto__bton{
+    background-color: red;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    transition-duration: 0.5s;
+}
+
+.producto__bton:hover{
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.bi-instagram{
+    font-size: 1.8rem;
+}
+
+.bi-facebook{
+    font-size: 1.8rem;
+}
+
+.bi-whatsapp{
+    font-size: 1.8rem;
+}
+.productos{
+    display: flex;
+    flex-direction: row wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 575px) {
+
+    .ofertas__imagen{
+        width: 25vh;
+        height: 25vh;
+        margin: 20px;
+        transition-duration: 0.5s;
+    }  
+    
+    .ofertas__imagen:hover{
+        width: 28vh;
+        height: 28vh; 
+    }
+
+    .ofertas__titulo{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+iframe {
+    width: 220px;
+    height: 180px;
+}
+
+.ofertas__titulo{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.ofertas__imagen{
+    width: 35vh;
+    height: 35vh;
+    margin: 20px;
+    transition-duration: 0.5s;
+}
+
+.ofertas__imagen:hover{
+    width: 39vh;
+    height: 39vh;
+}
+
+.logo {
+    width: 180px;
+    height: 120px;
+}
+
+.menu__items{
+    font-size: 1.2rem;
+}
+
+.ubicacion {
+    justify-content: space-around;
+}
+
+.ubicacion__texto{
+    font-size: 1rem;
+}
+
+.titulo__suscripcion{
+    font-size: 2rem;
+    margin-bottom: 20px ;
+}
+
+.bi-geo-alt{
+    font-size: 35px;
+}
+
+.correo {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.correo__destacado{
+    width: 290px;
+    height: 25px;
+}
+
+.titulo__modificado{
+    font-size: 1.1rem ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+
+}
+
+.bton{
+    width: 100px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    height: 33px;
+}
+
+.terminos{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+}
+
+.terminos__texto{
+    font-size: 1.2rem;
+}
+
+.iconos{
+    height: 80px;
+    justify-content: space-around;
+    
+}
+.bi-instagram{
+    font-size: 2.5rem;
+}
+
+.bi-facebook{
+    font-size: 2.5rem;
+}
+
+.bi-whatsapp{
+    font-size: 2.5rem;
+}
+
+.copyright{
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+.logo{
+    width: 440px;
+    height: 120px;
+}
+
+.bi-list{
+    color: black;
+    border: solid 1px black;
+    font-size: 35px;
+}
+
+.titulo{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    background-color: black;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+.ofertas__titulo{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ofertas__precioO{
+    color:white;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.ofertas__imagen{
+    width: 40vh;
+    height: 40vh;
+    margin: 20px;
+    transition-duration: 0.3s;
+}
+
+.ofertas__imagen:hover{
+        width: 44vh;
+        height: 44vh;
+}
+
+.titulo__suscripcion{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: black;
+    padding-top: 30px;
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+.ubicacion__texto{
+    font-size: 1.2rem;
+    padding: 6px;
+}
+
+.bi-geo-alt{
+    font-size: 40px;
+}
+
+.correo__destacado{
+    width: 450px;
+    height: 35px;
+    background-color: gray;
+    border: 1px grey solid;
+    color:white;
+    padding-left: 3px;
+    margin: 10px;
+}
+.titulo__modificado{
+    color: whitesmoke;
+    text-align: start;
+    font-size: 1.5rem;
+    background-color: black;
+    padding: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bton {
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    padding: 2px;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.terminos__texto{
+    font-size: 1.2rem;
+}
+
+.lista__parrafo{
+    margin-bottom: 60px;
+    font-size: 1.3rem;
+}
+
+.bi-instagram{
+    font-size: 3rem;
+}
+
+.bi-facebook{
+    font-size: 3rem;
+}
+
+.bi-whatsapp{
+    font-size: 3rem;
+}
+}
+}
+
+/*# sourceMappingURL=styles.css.map */
