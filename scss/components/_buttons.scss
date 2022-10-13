@@ -1,0 +1,48 @@
+    .bton{
+    display: flex;
+    justify-content: center;
+        
+        &__ofertas{
+            background-color: red;
+            text-align: center;
+            width: 100px;
+            height: 30px;
+            padding: 2px;
+            color: white;
+            font-size: 1rem;
+            border-radius: 30px;
+            transition-duration: 0.5s;
+                &:hover{
+                    color: black;
+                    background-color: white;
+                }
+        }
+        
+        &__correo{
+            background-color: rgba(0, 0, 0, 0.877);
+            text-align: center;
+            width: 100px;
+            height: 30px;
+            color: white;
+            font-size: 1rem;
+            border-radius: 30px;
+            margin-top: 15px;
+        }
+
+        &__producto{
+            background-color: red;
+            text-align: center;
+            width: 100px;
+            height: 25px;
+            color: white;
+            font-size: 1rem;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            transition-duration: 0.5s;
+                &:hover{
+                    color: black;
+                    background-color: white;
+                    border: solid 1px black;
+                }
+        }
+}

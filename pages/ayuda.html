@@ -43,22 +43,36 @@
     <!-- AYUDA  -->
     <main>
         <h2 class="titulo"> AYUDA </h2>
-        <h3 class="titulo__pregunta">¿Que tarjetas aceptan?</h3>
-        <h3 class="titulo__pregunta">¿Costo de envio?</h3>
+        <h3 class="texto__pregunta">¿Que tarjetas aceptan?</h3>
+        <div class="tarjetas">
+          <i class="bi bi-paypal"></i>
+          <img src="../assets/iconos/mastercard_old_payment_method_card_icon_142735.png" class="tarjeta__mastercard">
+          <img src="../assets/iconos/Visa_icon-icons.com_60549.png" class="tarjeta__visa">
+        </div>  
+        <h3 class="texto__pregunta">¿Costo de envio?</h3>
             <p class="texto">Los envios dentro del pais cuestan $1.000 y internacionales variara segun el pais</p>
-        <h3 class="titulo__pregunta">No llego el pedido</h3>
+        <h3 class="texto__pregunta">No llego el pedido</h3>
             <p class="texto">Comunicate con nosotros a traves de la pagina de ayuda y solucionaremos tu problema</p>
-        <h3 class="titulo__pregunta"> ¿Nadie recibio el pedido? </h3>
+        <h3 class="texto__pregunta"> ¿Nadie recibio el pedido? </h3>
             <p class="texto">El repartidor lo llevara a la misma hora el siguiente dia y si nadie pudo recibirlo nuevamente lo llevara a una sucursal</p>
-        <h3 class="titulo__pregunta">Cambio de Talles</h3>
+        <h3 class="texto__pregunta">Cambio de Talles</h3>
             <p class="texto">Comunicate con nosotros a traves de la pagina de ayuda y solucionaremos tu problema</p>
     </main>    
     <!-- Footer  -->
     <footer>
-        <a href=""><p> Terminos y Condiciones </p></a>
-        <a href=""><p> Politicas de Privacidad</p></a>
-        <p> <strong>©Copyright ANLOX </strong></p>
-    </footer>
+
+      <div class="terminos">
+          <a href><p class="terminos__texto">Terminos y Condiciones</p></a>
+          <a href="./pages/ayuda.html" target="_blank"><p class="terminos__texto"> Ayuda </p></a>
+          <a href=><p class="terminos__texto">Politicas de Privacidad</p></a>
+      </div>
+      <div class="iconos">
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-whatsapp"></i></a>
+      </div>  
+      <p class="copyright"> <strong>©Copyright ANLOX </strong></p>
+  </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

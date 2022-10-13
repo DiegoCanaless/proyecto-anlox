@@ -1,0 +1,21 @@
+
+.producto{
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.3rem;
+        &__imagen{
+            width: 250px;
+            height: 250px;
+            margin-bottom: 0px;
+            transition-duration: 0.5s;
+                &:hover{
+                    width: 270px;
+                    height: 270px;
+                }
+        }
+
+        &__iconos{
+            font-size: 1rem;
+        }
+}
+

@@ -44,43 +44,43 @@
 
     <main>
         <h2 class="titulo"> CONTACTO </h2>
-        <p class="titulo__destacado">ENVIANOS UN EMAIL</p>
-        <form action="" class="form__centrado">
+        <p class="email__titulo">ENVIANOS UN EMAIL</p>
+        <form action="" class="formulario">
             <div>
-                <label for="nombre" class="form__colores">Nombre</label>
-                <input type="text" placeholder="Nombre" name="nombre" id="nombre">
+                <input type="text" placeholder="Nombre" name="nombre" id="nombre" class="formulario__cajas">
             </div>
 
             <div>
-                <label for="apellido">Apellido</label>
-                <input type="text" placeholder="Apellido" name="apellido" id="apellido">
+                <input type="text" placeholder="Apellido" name="apellido" id="apellido" class="formulario__cajas">
             </div>
 
             <div>
-                <label for="email">Email</label>
-                <input type="email" placeholder="Email" name="email" id="email">
+                <input type="email" placeholder="Email" name="email" id="email" class="formulario__cajas">
             </div>
 
             <div>
-                <label for="escribir-mensaje">Ingrese su mensaje</label>
-                <textarea placeholder="Escriba su mensaje.." id="escribir-mensaje"></textarea>
+                <textarea placeholder="Escriba su mensaje.." id="escribir-mensaje" class="formulario__cajas"></textarea>
             </div>
-            <a href="" class="bton">Enviar</a>
+            <div class="bton">
+              <a href="" class="bton__correo">Enviar</a>
+            </div>
         </form>
     </main>
     <!-- Footer  -->
     <footer>
-        <a href>
-            <p> Terminos y Condiciones </p>
-        </a>
-        <a href="./ayuda.html" target="_blank">
-            <p> Ayuda </p>
-        </a>
-        <a href=>
-            <p> Politicas de Privacidad</p>
-        </a>
-        <p> <strong>©Copyright ANLOX </strong></p>
-    </footer>
+        
+      <div class="terminos">
+          <a href><p class="terminos__texto">Terminos y Condiciones</p></a>
+          <a href="./pages/ayuda.html" target="_blank"><p class="terminos__texto"> Ayuda </p></a>
+          <a href=><p class="terminos__texto">Politicas de Privacidad</p></a>
+      </div>
+      <div class="iconos">
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-whatsapp"></i></a>
+      </div>  
+      <p class="copyright"> <strong>©Copyright ANLOX </strong></p>
+  </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

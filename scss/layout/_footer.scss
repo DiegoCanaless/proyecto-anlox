@@ -1,0 +1,38 @@
+footer {
+    text-align: center;
+    font-size: 0, 1rem;
+    margin-top: 50px;
+}
+
+.terminos{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+        &__texto{
+            font-size: 1rem;
+        }
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.bi-instagram{
+    font-size: 1.8rem;
+}
+
+.bi-facebook{
+    font-size: 1.8rem;
+}
+
+.bi-whatsapp{
+    font-size: 1.8rem;
+}
+
+.copyright{
+    text-align: start;
+    margin-top: 20px;
+}
