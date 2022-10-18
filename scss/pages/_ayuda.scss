@@ -2,10 +2,12 @@
 .texto {
     color: black;
     font-weight: 200;
+    margin-left: 40px;
         &__pregunta {
-            color: black;
+            color: $color-primario;
             font-weight: 700;
             margin-top: 30px;
+            margin-left: 20px;
         }
 }
 
@@ -35,3 +37,4 @@
         }
 
 }
+

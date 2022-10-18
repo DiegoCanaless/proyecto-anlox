@@ -6,3 +6,14 @@
             font-size: 1.1rem;
         }
 }
+
+@media screen and (min-width: 1024px) {
+
+    .lista{
+
+        &__parrafo{
+            margin-bottom: 60px;
+            font-size: 1.3rem;
+        }
+    }
+}

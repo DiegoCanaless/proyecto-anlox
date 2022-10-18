@@ -3,21 +3,45 @@ nav {
 }
 
 .bi-list{
-    color: black;
-    border: solid 1px black;
+    color: $color-primario;
+    border: solid 1px $color-primario;
     font-size: 30px;
 }
 
 .logo{
     font-size: 3.5rem;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: $fuente;
     padding-top: 22px;
 }
 
 .nav-link{
     font-size: 20px;
-    color: black;
+    color: $color-primario;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid $color-primario;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 180px;
+        height: 120px;
+    }
+    
+    .menu__items{
+        font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .logo{
+        width: 440px;
+        height: 120px;
+    }
+    
+    .bi-list{
+        color: black;
+        border: solid 1px black;
+        font-size: 35px;
+    }
+}
 }

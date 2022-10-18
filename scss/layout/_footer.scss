@@ -36,3 +36,50 @@ footer {
     text-align: start;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .iconos{
+        height: 80px;
+        justify-content: space-around;
+        
+    }
+    .bi-instagram{
+        font-size: 2.5rem;
+    }
+    
+    .bi-facebook{
+        font-size: 2.5rem;
+    }
+    
+    .bi-whatsapp{
+        font-size: 2.5rem;
+    }
+    
+    .copyright{
+        font-size: 1.5rem;
+    }
+
+
+@media screen and (min-width: 1024px) {
+    
+    .terminos{
+
+        &__texto{
+            font-size: 1.2rem;
+        }
+    }
+
+    .bi-instagram{
+        font-size: 3rem;
+    }
+    
+    .bi-facebook{
+        font-size: 3rem;
+    }
+    
+    .bi-whatsapp{
+        font-size: 3rem;
+    }
+}
+
+}

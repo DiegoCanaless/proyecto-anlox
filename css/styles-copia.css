@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 575px) {
+/* @media screen and (min-width: 575px) {
 
     .ofertas__imagen{
         width: 25vh;
@@ -18,7 +18,7 @@
         text-align: center;
         font-size: 1.5rem;
     }
-}
+} */
 
 
 @media screen and (min-width: 768px) {
@@ -237,7 +237,6 @@ iframe {
 
 .bi-whatsapp{
     font-size: 3rem;
-}
 }
 }
 
