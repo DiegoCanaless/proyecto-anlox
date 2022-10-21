@@ -1,4 +1,9 @@
 
+iframe {
+    width: 220px;
+    height: 220px;
+}
+
 .titulo {
     color: $color-secundario;
     font-weight: 200;
@@ -9,14 +14,25 @@
     margin: 0px;
     font-family: $fuente;
     
+        &__ubicacion{
+            color: $color-primario;
+            text-align: center;
+            font-size: 2rem;
+            background-color: $color-secundario;
+            padding: 10px;
+            font-weight: 200;
+            margin-bottom: 10px;
+            font-family: $fuente;
+        }
+
         &__suscripcion{
             color: $color-secundario;
             text-align: center;
             font-size: 2rem;
             background-color: $color-primario;
+            margin-bottom: 0px;
             padding: 10px;
             font-weight: 200;
-            margin-bottom: 10px;
             font-family: $fuente;
         }
 
@@ -27,8 +43,6 @@
             background-color: $color-primario;
             padding: 20px;
             font-weight: 200;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
 }
 
@@ -84,22 +98,11 @@
     font-size: 40px;
 }
 
-.correo{
-    display: flex;
-    justify-content: center;
-        &__destacado{
-            background-color: gray;
-            border: 1px grey solid;
-            color: $color-secundario;
-            padding-left: 3px;
-            margin: 10px;
-        }
-}
-
 @media screen and (min-width: 575px) {
     
     .ofertas{
-        
+        font-size: 1.3rem;
+
         &__imagen{
             width: 25vh;
             height: 25vh;
@@ -110,28 +113,24 @@
                 height: 28vh; 
             }
         }
+    }
 
-        &__titulo{
-            color: white;
-            text-align: center;
-            font-size: 1.5rem;
+    .titulo{
+        
+        &__ubicacionP{
+            font-size: 2rem;
         }
     }
 
 @media screen and (min-width: 768px){
     
     iframe {
-        width: 220px;
-        height: 180px;
+        width: 260px;
+        height: 260px;
     }
 
     .ofertas{
-
-        &__titulo{
-            color: white;
-            text-align: center;
-            font-size: 1.8rem;
-        }
+        font-size: 1.8rem;
 
         &__imagen{
             width: 35vh;
@@ -157,33 +156,26 @@
 
         &__suscripcion{
             font-size: 2rem;
-            margin-bottom: 20px ;
         }
 
         &__modificado{
             font-size: 1.1rem ;
             padding-top: 20px;
             padding-bottom: 20px;
-            margin-bottom: 35px;
         }
     }
 
     .bi-geo-alt{
         font-size: 35px;
     }
-    
-    .correo {
-        height: 80px;
-        justify-content: center;
-        align-items: center;
+}
 
-        &__destacado{
-            width: 290px;
-            height: 25px;
-        }
-    }
-    
 @media screen and (min-width: 1024px) {
+
+    iframe {
+        width: 300px;
+        height: 260px;
+    }
 
     .titulo{
         color: white;
@@ -193,6 +185,10 @@
         background-color: black;
         padding: 10px;
         font-family: 'Shadows Into Light', cursive;;
+
+        &__ubicacion{
+            font-size: 2.5rem;
+        }
 
         &__suscripcion{
             color: white;
@@ -210,19 +206,12 @@
             background-color: black;
             padding: 20px;
             font-weight: 200;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
     }
 
     .ofertas{
 
-        &__titulo{
-            color: white;
-            text-align: center;
-            font-size: 2rem;
-            font-weight: 700;
-        }
+        font-size: 2rem;
 
         &__precioO{
             color:white;
@@ -255,18 +244,5 @@
         font-size: 40px;
     }
 
-    .correo{
-
-        &__destacado{
-            width: 450px;
-            height: 35px;
-            background-color: gray;
-            border: 1px grey solid;
-            color:white;
-            padding-left: 3px;
-            margin: 10px;
-        }
-    }
-}
 }
 }

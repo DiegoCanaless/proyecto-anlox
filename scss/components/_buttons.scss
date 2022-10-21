@@ -22,7 +22,7 @@
             background-color: rgba(0, 0, 0, 0.877);
             text-align: center;
             width: 100px;
-            height: 30px;
+            height: 25px;
             color: $color-secundario;
             font-size: 1rem;
             border-radius: 30px;
@@ -45,7 +45,23 @@
                     border: solid 1px $color-primario;
                 }
         }
-}
+    }
+
+    .correo{
+        display: flex;
+        justify-content: center;
+        background-color: $color-primario;
+            &__destacado{
+                width: 200px;
+                background-color: gray;
+                border-radius: 10px;
+                border: 1px grey solid;
+                color: $color-secundario;
+                padding-left: 3px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+    }
 
 @media screen and (min-width: 768px) {
     
@@ -89,8 +105,8 @@
         &__correo{
             background-color: $color-primario;
             text-align: center;
-            width: 120px;
-            height: 30px;
+            width: 100px;
+            height: 25px;
             color: $color-secundario;
             font-size: 1rem;
             border-radius: 30px;
@@ -98,7 +114,16 @@
         }
         
     }
+
+
+    .correo{
+        &__destacado{
+            width: 300px;
+        }
 }
+
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -139,6 +164,14 @@
                 }
         }
     }
+
+    .correo{
+            &__destacado{
+                width: 400px;
+    }
+
+    
 }
 
 
+}
