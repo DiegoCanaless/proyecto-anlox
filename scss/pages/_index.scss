@@ -8,27 +8,25 @@ iframe {
     color: $color-secundario;
     font-weight: 200;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     background-color: $color-primario;
     padding: 10px;
     margin: 0px;
     font-family: $fuente;
     
-        &__ubicacion{
+        &__visitanos{
             color: $color-primario;
             text-align: center;
-            font-size: 2rem;
             background-color: $color-secundario;
+            margin-bottom: 0px;
             padding: 10px;
             font-weight: 200;
-            margin-bottom: 10px;
             font-family: $fuente;
         }
 
         &__suscripcion{
             color: $color-secundario;
             text-align: center;
-            font-size: 2rem;
             background-color: $color-primario;
             margin-bottom: 0px;
             padding: 10px;
@@ -39,7 +37,7 @@ iframe {
         &__modificado{
             color: $color-secundario;
             text-align: start;
-            font-size: 1.2rem;
+            font-size: 1rem;
             background-color: $color-primario;
             padding: 20px;
             font-weight: 200;
@@ -116,8 +114,7 @@ iframe {
     }
 
     .titulo{
-        
-        &__ubicacionP{
+        &__visitanos{
             font-size: 2rem;
         }
     }
@@ -153,13 +150,17 @@ iframe {
     }
 
     .titulo{
+        font-size: 3rem;
+
+        &__visitanos{
+            font-size: 3rem;
+        }
 
         &__suscripcion{
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
 
         &__modificado{
-            font-size: 1.1rem ;
             padding-top: 20px;
             padding-bottom: 20px;
         }

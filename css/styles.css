@@ -166,12 +166,16 @@ html {
   }
 }
 nav {
-  background-color: rgba(255, 255, 255, 0.945);
+  background-color: black;
+}
+
+header {
+  color: white;
 }
 
 .bi-list {
-  color: black;
-  border: solid 1px black;
+  color: white;
+  border: solid 2px white;
   font-size: 30px;
 }
 
@@ -179,14 +183,15 @@ nav {
   font-size: 3.5rem;
   font-family: "Shadows Into Light", cursive;
   padding-top: 22px;
+  color: white;
 }
 
 .nav-link {
   font-size: 20px;
-  color: black;
+  color: white;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 @media screen and (min-width: 768px) {
@@ -301,26 +306,24 @@ iframe {
   color: white;
   font-weight: 200;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   background-color: black;
   padding: 10px;
   margin: 0px;
   font-family: "Shadows Into Light", cursive;
 }
-.titulo__ubicacion {
+.titulo__visitanos {
   color: black;
   text-align: center;
-  font-size: 2rem;
   background-color: white;
+  margin-bottom: 0px;
   padding: 10px;
   font-weight: 200;
-  margin-bottom: 10px;
   font-family: "Shadows Into Light", cursive;
 }
 .titulo__suscripcion {
   color: white;
   text-align: center;
-  font-size: 2rem;
   background-color: black;
   margin-bottom: 0px;
   padding: 10px;
@@ -330,7 +333,7 @@ iframe {
 .titulo__modificado {
   color: white;
   text-align: start;
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: black;
   padding: 20px;
   font-weight: 200;
@@ -397,7 +400,7 @@ iframe {
     width: 28vh;
     height: 28vh;
   }
-  .titulo__ubicacionP {
+  .titulo__visitanos {
     font-size: 2rem;
   }
 }
@@ -425,11 +428,16 @@ iframe {
   .ubicacion__texto {
     font-size: 1rem;
   }
+  .titulo {
+    font-size: 3rem;
+  }
+  .titulo__visitanos {
+    font-size: 3rem;
+  }
   .titulo__suscripcion {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .titulo__modificado {
-    font-size: 1.1rem;
     padding-top: 20px;
     padding-bottom: 20px;
   }

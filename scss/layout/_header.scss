@@ -1,10 +1,14 @@
 nav {
-    background-color: rgba(255, 255, 255, 0.945)
+    background-color: $color-primario;
+}
+
+header{
+    color: $color-secundario;
 }
 
 .bi-list{
-    color: $color-primario;
-    border: solid 1px $color-primario;
+    color: $color-secundario;
+    border: solid 2px $color-secundario;
     font-size: 30px;
 }
 
@@ -12,14 +16,15 @@ nav {
     font-size: 3.5rem;
     font-family: $fuente;
     padding-top: 22px;
+    color: $color-secundario;
 }
 
 .nav-link{
     font-size: 20px;
-    color: $color-primario;
+    color: $color-secundario;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid $color-primario;
+    border-bottom: 2px solid $color-secundario
 }
 
 @media screen and (min-width: 768px) {
