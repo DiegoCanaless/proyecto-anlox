@@ -1,0 +1,28 @@
+.talles{
+    width: 46vh;
+    height: 46vh;
+}
+
+@media screen and (min-width: 575px) {
+
+    .talles{
+        width: 70vh;
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    .talles{
+        width: 90vh;
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .talles{
+        width: 110vh;
+        height: 110vh;
+    }
+}
