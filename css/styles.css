@@ -180,18 +180,22 @@ header {
 }
 
 .logo {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-family: "Shadows Into Light", cursive;
   padding-top: 22px;
   color: white;
 }
 
 .nav-link {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: white;
   padding: 20px;
   text-align: center;
   border-bottom: 2px solid white;
+}
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.548);
+  font-size: 1.3rem;
 }
 
 @media screen and (min-width: 768px) {

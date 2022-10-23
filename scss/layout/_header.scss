@@ -13,19 +13,26 @@ header{
 }
 
 .logo{
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: $fuente;
     padding-top: 22px;
     color: $color-secundario;
 }
 
 .nav-link{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: $color-secundario;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid $color-secundario
+    border-bottom: 2px solid $color-secundario;
+    
+    &:hover{
+        color: rgba(255, 255, 255, 0.548);
+        font-size: 1.3rem;
+    }
 }
+
+
 
 @media screen and (min-width: 768px) {
     .logo {
