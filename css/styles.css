@@ -410,8 +410,8 @@ iframe {
 }
 @media screen and (min-width: 575px) and (min-width: 768px) {
   iframe {
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
   }
   .ofertas {
     font-size: 1.8rem;
@@ -451,8 +451,8 @@ iframe {
 }
 @media screen and (min-width: 575px) and (min-width: 1024px) {
   iframe {
-    width: 300px;
-    height: 260px;
+    width: 340px;
+    height: 340px;
   }
   .titulo {
     color: white;
