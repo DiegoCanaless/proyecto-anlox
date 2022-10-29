@@ -301,6 +301,10 @@ footer {
   width: 350px;
 }
 
+label {
+  display: block;
+}
+
 iframe {
   width: 220px;
   height: 220px;
