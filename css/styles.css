@@ -305,6 +305,10 @@ label {
   display: block;
 }
 
+.label__modificado {
+  display: inline;
+}
+
 iframe {
   width: 220px;
   height: 220px;
